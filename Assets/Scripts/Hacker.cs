@@ -49,16 +49,6 @@ public class Hacker : MonoBehaviour
             StartGame();
         }
 
-
-        // if (input == "1") {
-        //     level = 1;
-        //     password = levelOnePasswords[0];
-        //     StartGame();
-        // } else if (input == "2") {
-        //     level = 2;
-        //     password = levelTwoPasswords[0];
-        //     StartGame(); }
-
         else {
             Terminal.WriteLine("Invalid selection");
         }
